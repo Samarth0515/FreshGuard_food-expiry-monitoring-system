@@ -1,0 +1,98 @@
+.about-page {
+  padding: 40px 20px;
+  background-color: #f8fafc;
+  min-height: 85vh;
+}
+
+.about-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.about-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.about-header h1 {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #16a34a;
+  margin-bottom: 8px;
+}
+
+.about-header .sub {
+  color: #64748b;
+  font-size: 1.1rem;
+}
+
+.about-card {
+  background: white;
+  border-radius: 12px;
+  padding: 30px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e2e8f0;
+}
+
+.about-card h2 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 18px;
+  border-bottom: 2px solid #f1f5f9;
+  padding-bottom: 10px;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.team-member-card {
+  background-color: #f8fafc;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  text-align: center;
+}
+
+.team-member-card strong {
+  display: block;
+  font-size: 1rem;
+  color: #1e293b;
+  margin-bottom: 4px;
+}
+
+.team-member-card span {
+  font-size: 0.85rem;
+  color: #16a34a;
+  font-weight: 600;
+}
+
+.guides-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.guide-pill {
+  background-color: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  padding: 12px 20px;
+  border-radius: 8px;
+  flex: 1;
+  min-width: 240px;
+}
+
+.guide-pill strong {
+  display: block;
+  color: #166534;
+  font-size: 1.05rem;
+}
+
+.guide-pill span {
+  color: #64748b;
+  font-size: 0.85rem;
+}

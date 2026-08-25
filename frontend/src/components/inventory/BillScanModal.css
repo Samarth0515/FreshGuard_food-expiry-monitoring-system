@@ -1,0 +1,99 @@
+.bill-scan-modal {
+  max-width: 650px;
+  width: 95%;
+}
+
+.bill-upload-area {
+  border: 2px dashed #cbd5e1;
+  border-radius: 12px;
+  padding: 30px;
+  text-align: center;
+  background-color: #f8fafc;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin-bottom: 20px;
+}
+
+.bill-upload-area:hover {
+  border-color: #16a34a;
+  background-color: #f0fdf4;
+}
+
+.bill-upload-icon {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.bill-progress-container {
+  margin: 20px 0;
+}
+
+.bill-progress-bar {
+  width: 100%;
+  height: 10px;
+  background-color: #e2e8f0;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 8px;
+}
+
+.bill-progress-fill {
+  height: 100%;
+  background-color: #16a34a;
+  transition: width 0.3s ease;
+}
+
+.bill-progress-text {
+  font-size: 0.85rem;
+  color: #64748b;
+  text-align: center;
+}
+
+.bill-items-list {
+  margin-top: 15px;
+  max-height: 280px;
+  overflow-y: auto;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.bill-item-row {
+  display: grid;
+  grid-template-columns: 2fr 1.2fr 1fr 1.2fr auto;
+  gap: 8px;
+  align-items: center;
+  padding: 8px;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.bill-item-row:last-child {
+  border-bottom: none;
+}
+
+.bill-item-row input,
+.bill-item-row select {
+  padding: 6px 8px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 0.85rem;
+}
+
+.bill-remove-item {
+  background: none;
+  border: none;
+  color: #ef4444;
+  cursor: pointer;
+  font-size: 1.1rem;
+  padding: 4px;
+}
+
+.bill-preview-img {
+  max-height: 140px;
+  max-width: 100%;
+  border-radius: 8px;
+  margin: 10px auto;
+  display: block;
+  object-fit: contain;
+}
